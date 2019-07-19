@@ -1,0 +1,21 @@
+{
+  "name": "boot4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "GT",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.22.7"
+  }
+}
