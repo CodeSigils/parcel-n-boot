@@ -1,6 +1,9 @@
 # A simple parcel and bootstrap 4 setup template
 
-This is just a playground used mainly for fast Bootstrap 4 UI theme and UI creation with SASS, PostCSS and autoprefixer support. PLease note that everything lives in src dir.
+This is just a playground used mainly for tutorials and fast Bootstrap 4
+UI theme creation. It includes SASS, PostCSS and autoprefixer support.
+It also includes optional jqery and popper.js. All css and JS are imported
+from `src/js/index.js`.
 
 Start and run with:
 
@@ -10,7 +13,7 @@ yarn install && yarn run start
 npm install && npm run start
 ```
 
-Then visit http://localhost:1234 to see if everything is working
+Then visit `http://localhost:1234` to see if everything is working:
 
 ![](src/img/intro.png)
 
