@@ -28,4 +28,4 @@ that is recommended by the [official documentation](https://getbootstrap.com/doc
   to `./src/scss/vendor/scss` for customization using [cpx](https://www.npmjs.com/package/cpx).
 
 - When it is time to update Bootstrap version, just update it in `package.json`
-  and run `yarn update` or `npm update`. The `npx` command will do the rest.
+  and run `yarn update` or `npm update`. The `cpx` tool will do the rest.
