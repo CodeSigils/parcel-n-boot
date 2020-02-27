@@ -2,21 +2,23 @@
  * Overrides. 
  * All sass rules are copied from "node_modules/bootstrap/scss"
  * to "./src/scss/vendor/scss" for customising and theming.
- * link: https://getbootstrap.com/docs/4.3/getting-started/theming/
+ * link: https://getbootstrap.com/docs/4.4/getting-started/theming/
  */
 
 // Overrides - Must be imported before bootstrap scss
+
 // Required
-@import "./vendor/scss/functions";
-@import "./vendor/scss/variables";
-@import "./vendor/scss/mixins";
+@import './vendor/scss/functions';
+@import './vendor/scss/variables';
+@import './vendor/scss/mixins';
 
 // Optional
-@import "./vendor/scss/reboot";
-@import "./vendor/scss/type";
-@import "./vendor/scss/images";
-@import "./vendor/scss/code";
-@import "./vendor/scss/grid";
+@import './vendor/scss/reboot';
+@import './vendor/scss/type';
+@import './vendor/scss/images';
+@import './vendor/scss/code';
+@import './vendor/scss/grid';
 
 // Main bootstrap scss - Must be imported after overrides scss
+// @import '../../node_modules/bootstrap/scss/bootstrap';
 @import '~bootstrap/scss/bootstrap';
