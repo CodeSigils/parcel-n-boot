@@ -5,19 +5,21 @@
   "author": "GT",
   "license": "MIT",
   "scripts": {
-    "setup": "cpx \"node_modules/bootstrap/scss/**\" -u \"src/scss/vendor/scss/\"",
-    "reset": "npx rimraf src/scss/vendor",
+    "setup-css": "npx cpx \"node_modules/bootstrap/scss/**\" -u \"src/vendor/scss/\"",
+    "setup-js": "npx cpx \"node_modules/bootstrap/js/**\" -u \"src/vendor/js/\"",
+    "setup": "yarpm run setup-css && yarpm run setup-js",
+    "reset": "npx rimraf src/vendor",
     "serve": "parcel src/index.html"
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
     "popper.js": "^1.15.2",
-    "scss": "^0.2.4"
+    "scss": "^0.2.4",
+    "yarpm": "^0.2.1"
   },
   "devDependencies": {
     "autoprefixer": "^9.7.4",
-    "cpx": "^1.5.0",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.22.7"
   }
