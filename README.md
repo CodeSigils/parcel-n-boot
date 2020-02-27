@@ -1,6 +1,6 @@
 # A simple parcel and bootstrap 4 setup template
 
-Created mainly for fast creation of bootstrap 4 themes and UI kits with SASS and PostCSS wit autoprefixer support. Note that everything lives in src dir.
+This is just a playground used mainly for fast Bootstrap 4 UI theme and UI creation with SASS, PostCSS and autoprefixer support. PLease note that everything lives in src dir.
 
 Start and run with:
 
