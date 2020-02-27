@@ -5,13 +5,16 @@ UI theme creation. It includes SASS, PostCSS and autoprefixer support.
 It also includes optional jquery and popper.js. All css and JS are imported
 from `src/js/index.js`.
 
-Start and run with:
+- Start with:
 
-```js
-yarn install && yarn run start
-// or
-npm install && npm run start
-```
+  ```js
+  yarn install && yarn run update
+  ```
+
+- Serve with:
+  ```js
+  yarn run serve
+  ```
 
 Then visit `http://localhost:1234` to see if everything is working:
 

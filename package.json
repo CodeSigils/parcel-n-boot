@@ -7,7 +7,7 @@
   "scripts": {
     "update": "cpx \"node_modules/bootstrap/scss/**\" -u \"src/scss/vendor/scss/\"",
     "clear": "rm -rf src/scss/vendor",
-    "start": "parcel src/index.html"
+    "serve": "parcel src/index.html"
   },
   "dependencies": {
     "bootstrap": "^4.4.1",

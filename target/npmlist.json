@@ -1,1 +1,9 @@
-{"name":"boot4","version":"1.0.0","dependencies":{"bootstrap":{"version":"4.3.1"}}}
+{
+	"name": "parcel-n-boot",
+	"version": "1.0.0",
+	"dependencies": {
+		"bootstrap": {
+			"version": "4.4.1"
+		}
+	}
+}
