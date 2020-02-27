@@ -5,30 +5,31 @@ UI theme creation. It includes SASS, PostCSS and autoprefixer support.
 It also includes optional jquery and popper.js. All css and JS are imported
 from `src/js/index.js`.
 
-- Setup with:
+- To setup the project for the first time run:
 
   ```js
-  yarn install && yarn run update
+  yarn install && yarn run setup
   ```
 
 - Serve with:
+
   ```js
   yarn run serve
   ```
 
-Then visit `http://localhost:1234` to see if everything is working:
+- Visit `http://localhost:1234` to verify that everything is working:
 
 ![](src/img/intro.png)
 
 ## Using SASS
 
 All scss rules and utilities are imported in `src/scss/main.scss` in the way
-that is recommended by the [official documentation](https://getbootstrap.com/docs/4.4/getting-started/theming)
+that is recommended by the [official bootstrap documentation](https://getbootstrap.com/docs/4.4/getting-started/theming).
 
 ## Updating Bootstrap version
 
 - All sass rules are copied from `node_modules/bootstrap/scss`
-  to `./src/scss/vendor/scss` for customization using [cpx](https://www.npmjs.com/package/cpx).
+  to `./src/scss/vendor/scss` for customization using the [cpx](https://www.npmjs.com/package/cpx) tool.
 
 - When it is time to update Bootstrap version, just update it in `package.json`
-  and run `yarn update` or `npm update`. The `cpx` tool will do the rest.
+  and run `yarn run setup` or `npm run setup`.
