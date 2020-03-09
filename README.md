@@ -1,6 +1,6 @@
 # A simple parcel and bootstrap 4 setup template
 
-This is just a playground used mainly for tutorials and fast [Bootstrap](https://getbootstrap.com) UI theme creation. It includes SASS, PostCSS and autoprefixer support.
+This is just a simple playground used mainly for tutorials and fast [Bootstrap](https://getbootstrap.com) UI theme creation. It includes SASS, PostCSS and autoprefixer support.
 It also includes optional jquery and popper.js libraries. All css and JS are imported from `src/js/index.js` through [parcel](https://parceljs.org).
 
 Note that all the following commands are working with npm also.
@@ -8,9 +8,7 @@ Note that all the following commands are working with npm also.
 - First install dependencies: `yarn install`
 - To setup the project for the first time run: `yarn run setup`
 - Serve with: `yarn run serve`
-- Visit `http://localhost:1234` to verify that everything is working:
-
-![](src/img/intro.png)
+- Visit `http://localhost:1234` to verify that everything is working
 
 ## Using SASS
 
