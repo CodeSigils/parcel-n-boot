@@ -4,7 +4,7 @@
   "main": "index.js",
   "author": "GT",
   "license": "MIT",
-  "scripts":{
+  "scripts": {
     "setup-css": "cpx \"node_modules/bootstrap/scss/**\" -u \"src/vendor/scss/\"",
     "setup-js": "cpx \"node_modules/bootstrap/js/**\" -u \"src/vendor/js/\"",
     "setup": "yarpm run setup-css && yarpm run setup-js",
@@ -27,9 +27,9 @@
     "sass": "^1.22.7"
   },
   "browserlist": [
-      "> 1%",
-      "last 2 versions",
-      "not ie <= 8",
-      "not dead"
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8",
+    "not dead"
   ]
 }
