@@ -34,4 +34,4 @@ All scss rules and utilities are imported in `src/scss/main.scss` in the way tha
 
 - When it is time to update Bootstrap version, just update it in `package.json` and run `yarn run setup` again.
 
-- Delete `vendor` directory with `yarn run reset`
+- Reset `vendor` directory with `yarn run reset`
