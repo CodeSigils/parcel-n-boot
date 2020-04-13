@@ -5,10 +5,22 @@ It also includes optional jquery and popper.js libraries. All css and JS are imp
 
 Note that all the following commands are working with npm also.
 
-- Download: `npx degit CodeSigils/parcel-n-boot my-new-project`
-- Install dependencies: `yarn install`
-- To setup the project for the first time run: `yarn run setup`
-- Serve with: `yarn run serve`
+- Download:
+
+  `npx degit CodeSigils/parcel-n-boot my-new-project`
+
+- Install dependencies:
+
+  `yarn install`
+
+- To setup the project for the first time run:
+
+  `yarn run setup`
+
+- Serve with:
+
+  `yarn run serve`
+
 - Visit `http://localhost:1234` to verify that everything is working
 
 ## Using SASS
