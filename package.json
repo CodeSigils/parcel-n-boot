@@ -8,25 +8,29 @@
     "setup-css": "cpx \"node_modules/bootstrap/scss/**\" -u \"src/vendor/scss/\"",
     "setup-js": "cpx \"node_modules/bootstrap/js/**\" -u \"src/vendor/js/\"",
     "setup": "yarpm run setup-css && yarpm run setup-js",
-    "reset": "npx rimraf src/vendor",
-    "serve": "parcel src/*.html --port 1234",
-    "watch": "parcel watch src/index.html",
-    "build": "parcel build src/index.html --out-dir dist"
+    "reset": "npx rimraf src/vendor && npx rimraf dist",
+    "clear": "npx rimraf dist",
+    "serve": "parcel src/index.html --port 1234",
+    "watch": "yarpm serve && parcel watch src/index.html",
+    "build": "yarpm run purge && parcel build src/index.html --out-dir dist"
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "cssnano": "^4.1.10",
     "jquery": "^3.4.1",
     "popper.js": "^1.15.2",
-    "scss": "^0.2.4",
-    "yarpm": "^0.2.1"
+    "scss": "^0.2.4"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "autoprefixer": "^9.7.4",
     "cpx": "^1.5.0",
     "parcel-bundler": "^1.12.4",
-    "sass": "^1.22.7"
+    "postcss-purgecss": "^2.0.3",
+    "sass": "^1.22.7",
+    "yarpm": "^0.2.1"
   },
-  "browserlist": [
+  "browserslist": [
     "> 1%",
     "last 2 versions",
     "not ie <= 8",
