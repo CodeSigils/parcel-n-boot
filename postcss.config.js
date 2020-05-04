@@ -1,6 +1,7 @@
 module.exports = {
   plugins: [
     require('autoprefixer'),
+    /*
     require('cssnano')({
       preset: [
         'default', {
@@ -10,6 +11,7 @@ module.exports = {
         }
       ]
     }),
+    */
     require('postcss-purgecss')({
       content: ['./dist/*.html'],
     }),

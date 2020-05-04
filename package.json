@@ -8,8 +8,8 @@
     "setup-css": "cpx \"node_modules/bootstrap/scss/**\" -u \"src/vendor/scss/\"",
     "setup-js": "cpx \"node_modules/bootstrap/js/**\" -u \"src/vendor/js/\"",
     "setup": "yarpm run setup-css && yarpm run setup-js",
-    "reset": "npx rimraf src/vendor && npx rimraf dist",
-    "clear": "npx rimraf dist",
+    "reset": "npx rimraf {'src/vendor','./dist','./.cache'}",
+    "clear": "npx rimraf {'./dist','./.cache'}",
     "serve": "parcel src/index.html --port 1234",
     "watch": "yarpm serve && parcel watch src/index.html",
     "build": "yarpm run purge && parcel build src/index.html --out-dir dist"
